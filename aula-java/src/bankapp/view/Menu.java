@@ -45,7 +45,8 @@ public class Menu {
 		deposito = input.nextDouble();
 		if (deposito > 0) {
 			conta1.depositar(conta, deposito);
-			System.out.println("O valor atual do saldo é: " + conta.getSaldo());
+			System.out.println("Deposito de R$ " +deposito+  " realizado com sucesso! ");
+			System.out.println("O valor atual do saldo é: " + conta.getSaldo()+ ". Você retornará para o menu principal!");
 		} else {
 			System.out.println("Saldo insuficiente para esta transação!");
 		}
@@ -59,7 +60,8 @@ public class Menu {
 		saque = (int) input.nextDouble();
 		if (saque <= conta.getSaldo()) {
 			conta1.sacar(conta, saque);
-			System.out.println("O valor atual do saldo é: " + conta.getSaldo());
+			System.out.println("Saque de R$ " +saque+  " realizado com sucesso! ");
+			System.out.println("O valor atual do saldo é: " + conta.getSaldo() + ". Você retornará para o menu principal! ");
 			
 			
 		}else if(saque > conta.getSaldo()) {
