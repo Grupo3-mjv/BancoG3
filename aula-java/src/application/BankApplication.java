@@ -1,12 +1,12 @@
 package application;
 
-import view.Menu;
+import bankapp.view.Menu;
 
 public class BankApplication {
 
 	public static void main(String[] args) {
 		
-				Menu menu = new Menu();
+				bankapp.view.Menu menu = new Menu();
 				menu.menuGeral();
 				
 	}
