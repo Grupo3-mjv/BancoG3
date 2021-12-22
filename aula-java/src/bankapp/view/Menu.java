@@ -60,8 +60,13 @@ public class Menu {
 		if (saque <= conta.getSaldo()) {
 			conta1.sacar(conta, saque);
 			System.out.println("O valor atual do saldo é: " + conta.getSaldo());
-		} else {
-			System.out.println("Saldo insuficiente para esta transação!");
+			
+			
+		}else if(saque > conta.getSaldo()) {
+			conta1.sacar(conta, saque);
+			System.out.println("Saldo insuficiente para esta transação! Você retornará para o menu principal!");
+		}else {
+			System.out.println(" ");
 		}
 	}
 	public void transferencia(Conta conta, ContaService conta1, Conta contaDestino) {
