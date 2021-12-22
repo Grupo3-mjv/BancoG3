@@ -13,7 +13,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 ## :books: Funcionalidades
   # **Power Classes**
 
->## java.util.Formatter
+>## java.util.Calendar
 Basicamente essa classe serve para manipular os campos de calendário, dando a liberdade de formatar de acordo com localização, idioma ou estilo de calendário.
 
 >## java.time.LocalDate
