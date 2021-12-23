@@ -1,4 +1,10 @@
 <h1 align="center">:file_cabinet: BancoG3 </h1>
+
+<h1 align="center">
+<img src="https://avatars.githubusercontent.com/u/96503834?s=400&u=71b54ba57cc0fd5db0726da9ce3d43b8675ffb12&v=4" width="100px;" height="100px" alt="Foto Logo"/><br>
+  </div>
+
+
   
  ## :memo: Descrição
 Fomos desafiados à colocar em prática todo nosso conhecimento adquirido desde o início da DevSchool MJV. Nesta etapa vamos mostrar que nem só de ninjutsu vive um ninja. 😊
