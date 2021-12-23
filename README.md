@@ -1,7 +1,7 @@
 <h1 align="center">:file_cabinet: BancoG3 </h1>
 
 <h1 align="center">
-<img src="https://avatars.githubusercontent.com/u/96503834?s=400&u=71b54ba57cc0fd5db0726da9ce3d43b8675ffb12&v=4" width="100px;" height="100px" alt="Foto Logo"/><br>
+<img src="https://avatars.githubusercontent.com/u/96503834?s=400&u=36e31442c7bb4373cee92c18f0284266656a8a4f&v=4"  alt="Foto Logo"/><br>
   </div>
 
 
