@@ -76,6 +76,14 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
+      <a href="https://github.com/moniqueds">
+        <img src="https://avatars.githubusercontent.com/u/89393449?v=4" width="100px;" height="100px" alt="Foto Monique"/><br>
+        <sub>
+          <b>moniqueds</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
       <a href="https://github.com/tamillessouza">
         <img src="https://avatars.githubusercontent.com/u/96421939?v=4" width="100px;" height="100px" alt="Foto Tamilles"/><br>
         <sub>
