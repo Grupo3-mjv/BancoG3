@@ -34,7 +34,7 @@ public class Menu {
 				this.transferencia(contaDestino, conta1, conta);
 			}
 			if (escolha == 4) {
-				this.extrato(contaDestino, conta1, conta);
+				this.extrato(conta, conta1);
 			} else {
 				System.out.println("");
 			}
@@ -91,7 +91,7 @@ public class Menu {
 		}
 	}
 	
-	public void extrato(Conta conta, ContaService conta1, Conta contaDestino) {
+	public void extrato(Conta conta, ContaService conta1) {
 		
 		 System.out.println("------------------------Extrato----------------------------------------------------");
 		
