@@ -33,6 +33,8 @@ Um método em Java é equivalente a uma função ou procedimento em outras lingu
 
 >## Método Public
 O método é acessível por todas as classes quando usamos o especificador público em nossa aplicação.
+>## Método Private
+Enquanto no método public todas as outras classes que estão no pacote conseguirão “chamá-lo”, no método private somente a classe que da origem a ele conseguirá utilizá-lo.
 <br>
 
 ## 🤝 Colaboradores
