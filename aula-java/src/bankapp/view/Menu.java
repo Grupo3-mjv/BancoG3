@@ -1,5 +1,9 @@
 package bankapp.view;
 
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -30,7 +34,7 @@ public class Menu {
 				this.transferencia(contaDestino, conta1, conta);
 			}
 			if (escolha == 4) {
-				this.extrato(conta);
+				this.extrato(contaDestino, conta1);
 			} else {
 				System.out.println("");
 			}
@@ -86,8 +90,34 @@ public class Menu {
 			System.out.println("Saldo insuficiente para esta transação!");
 		}
 	}
-	public void extrato () {
+	
+	public void extrato(Conta conta, ContaService conta1) {
+		
+		 System.out.println("------------------------Extrato----------------------------------------------------");
+		
+		DateTimeFormatter hora = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+        System.out.println("Data da requisição: "+hora.format(LocalDateTime.now()));
+        String timeStamp = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(Calendar.getInstance().getTime());
+
+        System.out.println(timeStamp);
+		
+		    System.out.println("--------------------------------------------------------------------------------------");
+            System.out.println("Saldo: " + conta.getSaldo());
+            System.out.println("--------------------------------------------------------------------------------------");
+            System.out.println("Agradecemos por utilizar o Banco G3. O menu principal ficará abaixo à sua disposição! ");
+            System.out.println("---------------------------------------------------------------------------------------");
+            System.out.println("................... ....................................O Banco G3 deseja boas festas! ");
+            System.out.println("---------------------------------------------------------------------------------------");
+            
+       }
+
 		
 	}
 	
-}
+	
+		
+	
+
+	
+	
+
