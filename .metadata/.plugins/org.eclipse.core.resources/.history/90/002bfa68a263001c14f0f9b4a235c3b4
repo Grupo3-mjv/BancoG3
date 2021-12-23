@@ -41,7 +41,6 @@ public class Menu {
 			}
 		}
 		System.out.println("Operação cancelada pelo usuário!");
-		
 	}
 
 	public void deposito(Conta conta, ContaService conta1) {

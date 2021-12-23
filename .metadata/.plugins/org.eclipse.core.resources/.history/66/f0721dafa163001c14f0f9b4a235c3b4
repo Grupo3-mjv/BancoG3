@@ -34,14 +34,12 @@ public class Menu {
 				this.transferencia(contaDestino, conta1, conta);
 			}
 			if (escolha == 4) {
-				this.extrato(conta, conta1, contaDestino);
+				this.extrato(contaDestino, conta1, conta);
 			} else {
-				System.out.println(" ");
-				
+				System.out.println("");
 			}
 		}
 		System.out.println("Operação cancelada pelo usuário!");
-		
 	}
 
 	public void deposito(Conta conta, ContaService conta1) {

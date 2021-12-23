@@ -37,11 +37,10 @@ public class Menu {
 				this.extrato(conta, conta1, contaDestino);
 			} else {
 				System.out.println(" ");
-				
+				break;
 			}
 		}
 		System.out.println("Operação cancelada pelo usuário!");
-		
 	}
 
 	public void deposito(Conta conta, ContaService conta1) {

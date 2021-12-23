@@ -36,12 +36,11 @@ public class Menu {
 			if (escolha == 4) {
 				this.extrato(conta, conta1, contaDestino);
 			} else {
-				System.out.println(" ");
-				
+				System.out.println("Selecione um valor correto ");
+				break;
 			}
 		}
 		System.out.println("Operação cancelada pelo usuário!");
-		
 	}
 
 	public void deposito(Conta conta, ContaService conta1) {

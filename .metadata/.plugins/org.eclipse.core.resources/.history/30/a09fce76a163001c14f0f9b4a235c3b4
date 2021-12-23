@@ -34,14 +34,12 @@ public class Menu {
 				this.transferencia(contaDestino, conta1, conta);
 			}
 			if (escolha == 4) {
-				this.extrato(conta, conta1, contaDestino);
+				this.extrato(contaDestino, conta1, conta);
 			} else {
-				System.out.println(" ");
-				
+				System.out.println("");
 			}
 		}
 		System.out.println("Operação cancelada pelo usuário!");
-		
 	}
 
 	public void deposito(Conta conta, ContaService conta1) {
@@ -68,7 +66,7 @@ public class Menu {
 		if (saque <= conta.getSaldo()) {
 			conta1.sacar(conta, saque);
 			System.out.println("Saque de R$ " +saque+  " realizado com sucesso! ");
-			System.out.println("Você retornará para o menu principal! ");
+			System.out.println("O valor atual do saldo é: " + conta.getSaldo() + ". Você retornará para o menu principal! ");
 			
 			
 		}else if(saque > conta.getSaldo()) {
@@ -87,7 +85,7 @@ public class Menu {
 		if (transferencia <= conta.getSaldo()) {
 			conta1.transferir(conta, transferencia, contaDestino);
 			System.out.println("Transferência de R$" + transferencia + " realizada com sucesso!");
-			System.out.println("Você retornará para o menu principal!");
+			System.out.println("O valor atual do saldo é: " + conta.getSaldo());
 		} else {
 			System.out.println("Saldo insuficiente para esta transação!");
 		}
