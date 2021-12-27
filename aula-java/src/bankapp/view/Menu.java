@@ -22,22 +22,27 @@ public class Menu {
 			Scanner input = new Scanner(System.in);
 			System.out.println(
 					"O que deseja fazer?\n 1 - Deposito \n 2 - Saque \n 3 - Transferência \n 4 - Extrato \n 5 - Sair");
-
 			escolha = input.nextInt();
-			if (escolha == 1) {
+
+			switch (escolha) {
+			case 1: {
 				this.deposito(conta, conta1);
+				break;
 			}
-			if (escolha == 2) {
+			case 2: {
 				this.saque(conta, conta1);
+				break;
 			}
-			if (escolha == 3) {
+			case 3: {
 				this.transferencia(contaDestino, conta1, conta);
+				break;
 			}
-			if (escolha == 4) {
+			case 4: {
 				this.extrato(conta, conta1, contaDestino);
-			} else {
-				System.out.println(" ");
-				
+			}
+			
+			default:
+				System.out.println("Operação cancelada pelo usuário!");
 			}
 		}
 		System.out.println("Operação cancelada pelo usuário!");
