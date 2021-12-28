@@ -1,106 +1,42 @@
-<h1 align="center">:file_cabinet: BancoG3 </h1>
+<h1 align="center">:file_cabinet: Programa Formação em SalesForce :computer: :rocket: </h1>
 
 <h1 align="center">
-<img src="https://avatars.githubusercontent.com/u/96503834?s=400&u=36e31442c7bb4373cee92c18f0284266656a8a4f&v=4"  alt="Foto Logo"/><br>
+<img src="https://w7.pngwing.com/pngs/352/457/png-transparent-logo-organization-brand-infojobs-others-blue-text-logo.png"  alt="Foto Logo"/><br>
   </div>
 
+## :memo: Desafios em JAVA:
+>## 1 - Escreva um método que faça a encriptação de uma senha trocando cada letra que aparece na sequencia
+abaixo pelo índice da sequência.
+Sequência = ‘acdfgijloprtuvx’
+         Entrada        |      Saída
+Luiza                   |     L125z0
+Florianópolis           |  F781050nó9875s
 
-  
- ## :memo: Descrição
-Fomos desafiados à colocar em prática todo nosso conhecimento adquirido desde o início da DevSchool MJV. Nesta etapa vamos mostrar que nem só de ninjutsu vive um ninja. 😊
+>## 2 - Quadrado Mágico é uma tabela quadrada de números em progressão aritmética em que a soma de cada
+coluna, de cada linha e das duas diagonais são iguais (Wikipédia). Crie um método que receba uma
+matriz bidimensional e valide se é um quadrado mágico.
 
-## 💻 Pré-requisitos para rodar o projeto
+Somatório de todos os lados: 15
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Adicionar, duplicar ou remover conforme necessário--->
-* Juntar as mãos e fazer a oração do DEV; 
-* Clonar o repositório na sua máquina e rodar pela IDE Eclipe.
+Quadrado: 4 | 9 | 2
+          3 | 5 | 7
+          8 | 1 | 6
 
-## :books: Funcionalidades
-  # **Power Classes**
+>## 2 - Encontre uma palavra de 7 letras que contenha apenas as letras ‘bdeginoprstuw’ de forma que
+hash(string) é 687759396014. Onde o hash é definido pelo seguinte código:
 
->## java.util.Calendar
-Basicamente essa classe serve para manipular os campos de calendário, dando a liberdade de formatar de acordo com localização, idioma ou estilo de calendário.
+private static final int HASH = 7;
+private static final int FACTOR = 37;
+private static final String LETTERS = "bdeginoprstuw";
+private static long getHash( String s )
+{
+long h = HASH;
+int lLen = s.length();
+for ( int i = 0; i < lLen; i ++ )
+h = h * FACTOR + LETTERS.indexOf( s.charAt( i ) );
+return h;
+}
 
->## java.time.LocalDate
-Esta classe não armazena nem representa um horário ou fuso horário. Em vez disso, é uma descrição da data, usada para aniversários. Não pode representar um instante na linha do tempo sem informações adicionais, como deslocamento ou fuso horário. Outros campos de data, como dia do ano, dia da semana e semana do ano, também podem ser acessados. Por exemplo, o valor "2 de outubro de 2007" pode ser armazenado em a LocalDate.
-
->## java.time.LocalDateTime
-Representa uma data-hora, geralmente vista como ano-mês-dia-hora-minuto-segundo O tempo é representado com precisão de nanossegundos. Por exemplo, o valor "2 de outubro de 2007 às 13: 45.30.123456789" pode ser armazenado em a LocalDateTime.
-
-# **Os métodos mais utilizados no JAVA**
-Um método em Java é equivalente a uma função ou procedimento em outras linguagens de programação. Não existe em Java o conceito de métodos globais. Todos os métodos devem sempre ser definidos dentro de uma classe.
-
->## Método Public
-O método é acessível por todas as classes quando usamos o especificador público em nossa aplicação.
->## Método Private
-Enquanto no método public todas as outras classes que estão no pacote conseguirão “chamá-lo”, no método private somente a classe que da origem a ele conseguirá utilizá-lo.
-<br>
-
-## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/albertomoiseisof">
-        <img src="https://avatars.githubusercontent.com/u/96124902?v=4" width="100px;" height="100px" alt="Foto de Alberto"/><br>
-        <sub>
-          <b>albertomoiseisof</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/cassiarlima">
-        <img src="https://avatars.githubusercontent.com/u/89136471?v=4" width="100px;" height="100px" alt="Foto Cássia"/><br>
-        <sub>
-          <b>cassiarlima</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Day-coder">
-        <img src="https://avatars.githubusercontent.com/u/76756753?v=4" width="100px;" height="100px" alt="Foto Day"/><br>
-        <sub>
-          <b>Day-coder</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Elainecristina3008">
-        <img src="https://avatars.githubusercontent.com/u/59236894?v=4" width="100px;" height="100px" alt="Foto Elaine"/><br>
-        <sub>
-          <b>Elainecristina3008</b>
-        </sub>
-      </a>
-    </td>
-     <td align="center">
-      <a href="https://github.com/LigiaDuarte">
-        <img src="https://avatars.githubusercontent.com/u/86318295?v=4" width="100px;" height="100px" alt="Foto Ligia"/><br>
-        <sub>
-          <b>LigiaDuarte</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/moniqueds">
-        <img src="https://avatars.githubusercontent.com/u/89393449?v=4" width="100px;" height="100px" alt="Foto Monique"/><br>
-        <sub>
-          <b>moniqueds</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/tamillessouza">
-        <img src="https://avatars.githubusercontent.com/u/96421939?v=4" width="100px;" height="100px" alt="Foto Tamilles"/><br>
-        <sub>
-          <b>tamillessouza</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
 <br>
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
